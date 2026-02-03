@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SMGLEnhancements", "http://localhost/SMGLEnhancements", "{D515B08F-D794-5A45-5150-02BCC93E1178}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = "{267a9a89-de98-4322-afc7-b891bb5574d5}|SMGLEnhancements.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/SMGLEnhancements"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\AcumaticaInstances\24r2\24.210.0019\SMGLEnhancements\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SMGLEnhancements\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SMGLEnhancements"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\AcumaticaInstances\24r2\24.210.0019\SMGLEnhancements\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SMGLEnhancements\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\AcumaticaInstances\24r2\24.210.0019\SMGLEnhancements\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMGLEnhancements", "SMGLEnhancements\SMGLEnhancements.csproj", "{267A9A89-DE98-4322-AFC7-B891BB5574D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D515B08F-D794-5A45-5150-02BCC93E1178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D515B08F-D794-5A45-5150-02BCC93E1178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D515B08F-D794-5A45-5150-02BCC93E1178}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D515B08F-D794-5A45-5150-02BCC93E1178}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{267A9A89-DE98-4322-AFC7-B891BB5574D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267A9A89-DE98-4322-AFC7-B891BB5574D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267A9A89-DE98-4322-AFC7-B891BB5574D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267A9A89-DE98-4322-AFC7-B891BB5574D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BB91750-3F65-4CFE-9C7E-AB30A9F2D365}
+	EndGlobalSection
+EndGlobal
